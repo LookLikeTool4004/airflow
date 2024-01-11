@@ -1,14 +1,14 @@
-#Overview
+# Overview
 This project implements a machine learning pipeline for predicting car prices. It uses Apache Airflow for workflow orchestration, ensuring that data processing, model training, and prediction are executed in a systematic and automated manner.
 
-#Files Description
+# Files Description
 hw_dag.py: This script defines an Airflow DAG (Directed Acyclic Graph) named car_price_prediction. It orchestrates two main tasks:
 
 pipeline: For processing data and training the machine learning model.
 predict: For making predictions using the trained model.
 pipeline.py: Implements the data processing and machine learning pipeline. Key features:
 
-#Data preprocessing functions.
+# Data preprocessing functions.
 A machine learning pipeline setup using sklearn, with various classifiers and preprocessing techniques.
 predict.py: Used for making predictions on new data with the trained model. Features include:
 
